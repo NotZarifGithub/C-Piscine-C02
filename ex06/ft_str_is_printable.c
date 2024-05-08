@@ -6,7 +6,7 @@
 /*   By: mabd-ram <mabd-ram@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/02 14:51:52 by mabd-ram          #+#    #+#             */
-/*   Updated: 2024/05/02 15:03:42 by mabd-ram         ###   ########.fr       */
+/*   Updated: 2024/05/07 20:50:34 by mabd-ram         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@ int	ft_str_is_printable(char *str)
 {
 	int	i;
 
-	int = 0;
+	i = 0;
 	while (str[i] != '\0')
 	{
 		if (str[i] < ' ' || str[i] > '~')
