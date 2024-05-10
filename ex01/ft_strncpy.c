@@ -6,7 +6,7 @@
 /*   By: mabd-ram <mabd-ram@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/02 12:28:51 by mabd-ram          #+#    #+#             */
-/*   Updated: 2024/05/09 13:31:59 by mabd-ram         ###   ########.fr       */
+/*   Updated: 2024/05/10 22:30:57 by mabd-ram         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,11 @@ char	*ft_strncpy(char *dest, const char *src, unsigned int n)
 		dest[i] = src[i];
 		i++;
 	}
-	if (n > i)
+	while (n > i)
+	{
 		dest[i] = '\0';
+		i++;
+	}
 	return (dest);
 }
 
